@@ -71,3 +71,9 @@
 - 얕은 복사
 ```
 
+### ex1_13
+```
+[CopyObject를 이용한 객체 복사]
+- for in 문법을 이용해 result 객체에 target 객체의 Property 복사 (얕은 복사)
+```
+
