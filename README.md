@@ -130,3 +130,11 @@
 [undefined와 null의 비교]
 - null은 object이고, 사용자는 undefined를 사용하는 대신 null을 사용하라.
 ```
+
+
+
+### ex2_01
+```
+[실행 컨텍스트와 콜 스택]
+- inner gkatndml 
+```
