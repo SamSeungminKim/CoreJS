@@ -198,3 +198,10 @@
 - 함수 표현식으로 작성하면 Hoisting시 var만 끌어 올리고, function은 실행시 Assign 됨.
 - 따라서 Hoisting시 multiply는 변수만 잡히고, 아직 function으로 Assign 되지 않았기 때문에 "TypeError:multiply is not a function"이 출력됨.
 ```
+
+## ex2_10
+```
+[함수 선언문과 함수 표현식(2)]
+- 호이스팅을 마친 상태
+- 함수 선언문 sum은 전체를 호이스팅한 반면, 함수 표현식 multiply는 변수 선언부만 호이스팅 함. 
+```
