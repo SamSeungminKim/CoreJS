@@ -189,3 +189,12 @@
 - C = f d() { }
 - 다만, C 함수 내부에서 d는 사용 할 수 있음.
 ```
+
+## ex2_09
+```
+[함수 선언문과 함수 표현식(1)]
+- 원본 코드
+- 함수 선언문으로 작성하면 Hoisting시 function까지 끌어 올라오나,
+- 함수 표현식으로 작성하면 Hoisting시 var만 끌어 올리고, function은 실행시 Assign 됨.
+- 따라서 Hoisting시 multiply는 변수만 잡히고, 아직 function으로 Assign 되지 않았기 때문에 "TypeError:multiply is not a function"이 출력됨.
+```
