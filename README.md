@@ -164,4 +164,12 @@
 [함수 선언의의 호이스팅(1)]
 - 원본 코드
 - undefined, bbb, function:b가 출력 될 것 같지만, 변수 b 및 함수 b가 Hoisting에 의해 끌어올려져, 실행될 때는 function:b, bbb, bbb가 출력 됨.
+```
+
+## ex2_06
+```
+[함수 선언의의 호이스팅(2)]
+- 호이스팅을 마친 상태
+- Hoisting을 마치면 변수 b 및 함수 b가 맨위에 있고, 순서대로 실행 되므로 function:b, bbb, bbb가 출력 되는 것이 명확함.
+
 
