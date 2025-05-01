@@ -316,6 +316,12 @@
 ## ex3_09
 ```
 [내부 함수에서의 this]
-- obj1.outer()에 의해 innerFunc();가 실행될때 비록 outer안에 정의 되어 있으나 호출한 Object가 없으므로 (앞에 점이 없으므로 메서드가 아닌 함수로 호출출) 전역에서 호출한 것으로 되어 this는 Window 가 됨.
+- obj1.outer()에 의해 innerFunc();가 실행될때 비록 outer안에 정의 되어 있으나 호출한 Object가 없으므로 (앞에 점이 없으므로 메서드가 아닌 함수로 호출) 전역에서 호출한 것으로 되어 this는 Window 가 됨.
 - obj2.innerMethod()에 의해 innerFunc이 실행될 때는 메서드로 호출하였으며 호출한 Object가 obj2이므로 this는 obj2 가 됨.
+```
+
+## ex3_10
+```
+[내부 함수에서의 this를 우회 하는 방법]
+- 내부 함수에서 메서드가 아닌 함수로 호출할 경우 상위 Scope의 this를 상속할 방법이 없지만, this를 변수(self)에 넣어 전달하면 됨.
 ```
