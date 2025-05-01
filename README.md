@@ -283,3 +283,11 @@
 [전역변수와 전역객체(2)]
 - a, window.a, this.a 모두 동일 객체 window{a: , ...}를 바라봄.
 ```
+
+## ex3_05
+```
+[전역변수와 전역객체(3)]
+- 전역변수로 선언한 a, b는 지울수 없으나, window.c, window.d로 선언하면 c, d 삭제 가능. 
+- Uncaught ReferenceError ReferenceError: c is not defined
+- Uncaught ReferenceError ReferenceError: d is not defined
+```
