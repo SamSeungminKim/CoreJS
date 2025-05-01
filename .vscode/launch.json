@@ -20,7 +20,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\ex2_16.js"
+            "program": "${workspaceFolder}\\ex3_21.js"
         }
     ]
 }
