@@ -385,3 +385,10 @@
 - array의 map.call()은 call back 함수를 인자로 받아 str string의 각 인덱스(a, b, ..)를 인자로 넣어 수행 후 new array로 return 하였고,
 - array의 reduce.apply()는 call back 함수를 인자로 받아 수행 후 string은 string으로, 배열은 배열로 변환하여 return 함.
 ```
+
+## ex3_20
+```
+[call/apply 메서드의 활용(1-4)]
+- ES6의 Array.from 메서드
+- 유사배열객체 또는 순회 가능한 모든 종류의 데이터 타입을 배열로 전환환
+```
