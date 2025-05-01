@@ -426,5 +426,12 @@
 ## ex3_26
 ```
 [bind 메서드]
-- name 프로퍼티티
+- name 프로퍼티
+```
+
+## ex3_27
+```
+[내부함수에 this 전달]
+- call vs. bind
+- 내부함수에서 메서드의 this를 전달하기 위해 call 이나 apply 또는 bind 메서드 활용 가능
 ```
