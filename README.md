@@ -247,3 +247,11 @@
 - inner 함수에서 콘솔로 b를 출력하니, 디버그창에서 Closure(outer)에 'b = 2'가 노출되나, inner 함수는 내부에서 사용되지 않으니 노출되지 않음.
 ```
 ![alt text](./img/image-2_16.png)
+
+
+## ex3_01
+```
+[전역 공간에서 this(브라우저 환경)]
+- {}
+- ReferenceError: window is not defined
+```
