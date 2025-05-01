@@ -435,3 +435,9 @@
 - call vs. bind
 - 내부함수에서 메서드의 this를 전달하기 위해 call 이나 apply 또는 bind 메서드 활용 가능
 ```
+
+## ex3_28
+```
+[bind 메서드드]
+- 내부함수에 this 전달
+```
