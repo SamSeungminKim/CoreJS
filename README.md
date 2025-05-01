@@ -252,8 +252,13 @@
 ## ex3_01
 ```
 [전역 공간에서 this(브라우저 환경)]
-- {}
-- ReferenceError: window is not defined
+- Node에서 Debugging 시
+  {}
+  ReferenceError: window is not defined
+- 크롬 브라우저 환경에서 Debugging 시
+  Window {...}
+  Window {...}
+  true
 ```
 
 ## ex3_02
@@ -261,5 +266,14 @@
 [전역 공간에서 this(Node.js 환경)]
 - {}
 - <ref *1> Object [global] { }
-- fakse
+- false
+```
+
+## ex3_03
+```
+[전역변수와 전역객체(1)]
+- 크롬 브라우저 환경에서 Debugging 시 this === windown
+  1
+  1
+  1
 ```
