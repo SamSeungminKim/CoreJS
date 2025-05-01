@@ -291,3 +291,9 @@
 - Uncaught ReferenceError ReferenceError: c is not defined
 - Uncaught ReferenceError ReferenceError: d is not defined
 ```
+
+## ex3_06
+```
+[함수로서의 호출, 메서드로서의 호출]
+- 함수로 호출하니 this는 Window이고, 메서드로 호출하니 this는 Object 임.
+```
