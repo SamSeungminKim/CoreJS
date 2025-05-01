@@ -376,3 +376,12 @@
 [call/apply 메서드의 활용(1-2)]
 - arguments, NodeList에 배열 매서드 적용.
 ```
+
+## ex3_19
+```
+[call/apply 메서드의 활용(1-3)]
+- 문자열에 배열 메서드 적용.
+- string은 기본형으로 불변값이므로 push.call()로 추가 할수 없어 Error 발생.
+- array의 map.call()은 call back 함수를 인자로 받아 str string의 각 인덱스(a, b, ..)를 인자로 넣어 수행 후 new array로 return 하였고,
+- array의 reduce.apply()는 call back 함수를 인자로 받아 수행 후 string은 string으로, 배열은 배열로 변환하여 return 함.
+```
