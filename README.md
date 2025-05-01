@@ -228,7 +228,7 @@
 ```
 [스코프 체인 확인(1)]
 - 크롬 전용 
-- outer 함수내에서 b=2를 선언하고 할당했으나, inner 함수에서 b를 사용하지 않으니, 디버그창에서 Closure(outer)에 'inner = f() { }'만 노출되고 'b'는 노출되지 않음. 노출됨.
+- outer 함수내에서 b=2를 선언하고 할당했으나, inner 함수에서 b를 사용하지 않으니, 디버그창에서 Closure(outer)에 'inner = f() { }'만 노출되고 'b'는 노출되지 않음.
 ```
 ![alt text](./img/image-2_14.png)
 
@@ -239,3 +239,11 @@
 - inner 함수에서 콘솔로 b를 출력하니, 디버그창에서 Closure(outer)에 'b = 2'가 노출됨.
 ```
 ![alt text](./img/image-2_15.png)
+
+## ex2_16
+```
+[스코프 체인 확인(3)]
+- debugger 이용
+- inner 함수에서 콘솔로 b를 출력하니, 디버그창에서 Closure(outer)에 'b = 2'가 노출되나, inner 함수는 내부에서 사용되지 않으니 노출되지 않음.
+```
+![alt text](./img/image-2_16.png)
