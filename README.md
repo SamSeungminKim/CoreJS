@@ -312,3 +312,10 @@
 - methodA()가 실행될 때 this는 obj 이고,
 - methodB()가 실행될 때 this는 obj.inner 임.
 ```
+
+## ex3_09
+```
+[내부 함수에서의 this]
+- obj1.outer()에 의해 innerFunc();가 실행될때 비록 outer안에 정의 되어 있으나 호출한 Object가 없으므로 (앞에 점이 없으므로 메서드가 아닌 함수로 호출출) 전역에서 호출한 것으로 되어 this는 Window 가 됨.
+- obj2.innerMethod()에 의해 innerFunc이 실행될 때는 메서드로 호출하였으며 호출한 Object가 obj2이므로 this는 obj2 가 됨.
+```
