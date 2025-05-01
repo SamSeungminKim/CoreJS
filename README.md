@@ -255,3 +255,11 @@
 - {}
 - ReferenceError: window is not defined
 ```
+
+## ex3_02
+```
+[전역 공간에서 this(Node.js 환경)]
+- {}
+- <ref *1> Object [global] { }
+- fakse
+```
